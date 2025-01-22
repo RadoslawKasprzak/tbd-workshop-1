@@ -271,7 +271,7 @@ the running instance of your Vertex AI Workbench
 
 12. In main.tf update
     ```
-    dbt_git_repo            = "https://github.com/mwiewior/tbd-tpc-di.git"
+    dbt_git_repo            = "https://github.com/RadoslawKasprzak/tbd-tpc-di.git"
     dbt_git_repo_branch     = "main"
     ```
     so dbt_git_repo points to your fork of tbd-tpc-di. 
@@ -279,4 +279,3 @@ the running instance of your Vertex AI Workbench
 13. Redeploy infrastructure and check if the DAG finished with no errors:
 
     ***The screenshot of Apache Aiflow UI***
-
