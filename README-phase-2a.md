@@ -279,4 +279,12 @@ the running instance of your Vertex AI Workbench
 
 13. Redeploy infrastructure and check if the DAG finished with no errors:
 
-    ***The screenshot of Apache Aiflow UI***
+        After redeploying infrastructure with dbt_git_repo variables changed DAG composer_sample_dbt_task runned successfully:
+
+    ![image](https://github.com/user-attachments/assets/aeb3b7c3-b735-4f74-95bf-fd64c868fdc1)
+
+    ![image](https://github.com/user-attachments/assets/98bf16ed-fbcf-4523-a9f5-f9b7a0874ca1)
+
+
+
+    
