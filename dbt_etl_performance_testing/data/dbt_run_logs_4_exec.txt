@@ -1,0 +1,128 @@
+20:09:52  1 of 43 OK created sql table model demo_bronze.brokerage_cash_transaction ...... [OK in 30.84s]
+20:09:52  2 of 43 START sql table model demo_bronze.brokerage_daily_market ............... [RUN]
+25/01/21 20:09:53 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:11:15  2 of 43 OK created sql table model demo_bronze.brokerage_daily_market .......... [OK in 82.63s]
+20:11:15  3 of 43 START sql table model demo_bronze.brokerage_holding_history ............ [RUN]
+25/01/21 20:11:15 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:11:28  3 of 43 OK created sql table model demo_bronze.brokerage_holding_history ....... [OK in 12.66s]
+20:11:28  4 of 43 START sql table model demo_bronze.brokerage_trade ...................... [RUN]
+25/01/21 20:11:28 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:12:14  4 of 43 OK created sql table model demo_bronze.brokerage_trade ................. [OK in 46.71s]
+20:12:14  5 of 43 START sql table model demo_bronze.brokerage_trade_history .............. [RUN]
+25/01/21 20:12:14 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:12:54  5 of 43 OK created sql table model demo_bronze.brokerage_trade_history ......... [OK in 40.09s]
+20:12:54  6 of 43 START sql table model demo_bronze.brokerage_watch_history .............. [RUN]
+25/01/21 20:12:55 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:13:37  6 of 43 OK created sql table model demo_bronze.brokerage_watch_history ......... [OK in 42.39s]
+20:13:37  7 of 43 START sql table model demo_bronze.crm_customer_mgmt .................... [RUN]
+25/01/21 20:13:37 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+25/01/21 20:13:37 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+20:13:43  7 of 43 OK created sql table model demo_bronze.crm_customer_mgmt ............... [OK in 6.21s]
+20:13:43  8 of 43 START sql table model demo_bronze.finwire_company ...................... [RUN]
+25/01/21 20:13:43 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:13:45  8 of 43 OK created sql table model demo_bronze.finwire_company ................. [OK in 2.18s]
+20:13:45  9 of 43 START sql table model demo_bronze.finwire_financial .................... [RUN]
+25/01/21 20:13:46 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:32  9 of 43 OK created sql table model demo_bronze.finwire_financial ............... [OK in 47.28s]
+20:14:32  10 of 43 START sql table model demo_bronze.finwire_security .................... [RUN]
+25/01/21 20:14:33 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:35  10 of 43 OK created sql table model demo_bronze.finwire_security ............... [OK in 2.32s]
+20:14:35  11 of 43 START sql table model demo_bronze.hr_employee ......................... [RUN]
+25/01/21 20:14:35 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:37  11 of 43 OK created sql table model demo_bronze.hr_employee .................... [OK in 2.39s]
+20:14:37  12 of 43 START sql table model demo_bronze.reference_date ...................... [RUN]
+25/01/21 20:14:37 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:39  12 of 43 OK created sql table model demo_bronze.reference_date ................. [OK in 1.33s]
+20:14:39  13 of 43 START sql table model demo_bronze.reference_industry .................. [RUN]
+25/01/21 20:14:39 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:39  13 of 43 OK created sql table model demo_bronze.reference_industry ............. [OK in 0.67s]
+20:14:39  14 of 43 START sql table model demo_bronze.reference_status_type ............... [RUN]
+25/01/21 20:14:39 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:40  14 of 43 OK created sql table model demo_bronze.reference_status_type .......... [OK in 0.70s]
+20:14:40  15 of 43 START sql table model demo_bronze.reference_tax_rate .................. [RUN]
+25/01/21 20:14:40 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:41  15 of 43 OK created sql table model demo_bronze.reference_tax_rate ............. [OK in 0.87s]
+20:14:41  16 of 43 START sql table model demo_bronze.reference_trade_type ................ [RUN]
+25/01/21 20:14:41 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:42  16 of 43 OK created sql table model demo_bronze.reference_trade_type ........... [OK in 0.74s]
+20:14:42  17 of 43 START sql table model demo_bronze.syndicated_prospect ................. [RUN]
+25/01/21 20:14:42 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:14:46  17 of 43 OK created sql table model demo_bronze.syndicated_prospect ............ [OK in 4.19s]
+20:14:46  18 of 43 START sql table model demo_silver.daily_market ........................ [RUN]
+25/01/21 20:14:46 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:31:54  18 of 43 OK created sql table model demo_silver.daily_market ................... [OK in 1028.25s]
+20:31:54  19 of 43 START sql table model demo_silver.employees ........................... [RUN]
+25/01/21 20:31:54 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:31:56  19 of 43 OK created sql table model demo_silver.employees ...................... [OK in 2.24s]
+20:31:56  20 of 43 START sql table model demo_silver.date ................................ [RUN]
+25/01/21 20:31:56 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:31:57  20 of 43 OK created sql table model demo_silver.date ........................... [OK in 1.07s]
+20:31:57  21 of 43 START sql table model demo_silver.companies ........................... [RUN]
+25/01/21 20:31:58 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:32:03  21 of 43 OK created sql table model demo_silver.companies ...................... [OK in 5.50s]
+20:32:03  22 of 43 START sql table model demo_silver.accounts ............................ [RUN]
+25/01/21 20:32:03 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:32:13  22 of 43 OK created sql table model demo_silver.accounts ....................... [OK in 10.18s]
+20:32:13  23 of 43 START sql table model demo_silver.customers ........................... [RUN]
+25/01/21 20:32:13 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:32:25  23 of 43 OK created sql table model demo_silver.customers ...................... [OK in 10.88s]
+20:32:25  24 of 43 START sql table model demo_silver.trades_history ...................... [RUN]
+25/01/21 20:32:25 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:36:49  24 of 43 OK created sql table model demo_silver.trades_history ................. [OK in 264.10s]
+20:36:49  25 of 43 START sql table model demo_gold.dim_broker ............................ [RUN]
+25/01/21 20:36:49 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:36:52  25 of 43 OK created sql table model demo_gold.dim_broker ....................... [OK in 2.99s]
+20:36:52  26 of 43 START sql table model demo_gold.dim_date .............................. [RUN]
+25/01/21 20:36:52 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:36:53  26 of 43 OK created sql table model demo_gold.dim_date ......................... [OK in 1.15s]
+20:36:53  27 of 43 START sql table model demo_gold.dim_company ........................... [RUN]
+25/01/21 20:36:53 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:36:55  27 of 43 OK created sql table model demo_gold.dim_company ...................... [OK in 2.03s]
+20:36:55  28 of 43 START sql table model demo_silver.financials .......................... [RUN]
+25/01/21 20:36:55 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:37:54  28 of 43 OK created sql table model demo_silver.financials ..................... [OK in 59.56s]
+20:37:54  29 of 43 START sql table model demo_silver.securities .......................... [RUN]
+25/01/21 20:37:55 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:37:58  29 of 43 OK created sql table model demo_silver.securities ..................... [OK in 3.93s]
+20:37:58  30 of 43 START sql table model demo_silver.cash_transactions ................... [RUN]
+25/01/21 20:37:59 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:38:42  30 of 43 OK created sql table model demo_silver.cash_transactions .............. [OK in 43.71s]
+20:38:42  31 of 43 START sql table model demo_gold.dim_customer .......................... [RUN]
+25/01/21 20:38:42 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:38:54  31 of 43 OK created sql table model demo_gold.dim_customer ..................... [OK in 11.63s]
+20:38:54  32 of 43 START sql table model demo_gold.dim_trade ............................. [RUN]
+25/01/21 20:38:54 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:41:44  32 of 43 OK created sql table model demo_gold.dim_trade ........................ [OK in 170.08s]
+20:41:44  33 of 43 START sql table model demo_silver.trades .............................. [RUN]
+25/01/21 20:41:44 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:45:08  33 of 43 OK created sql table model demo_silver.trades ......................... [OK in 204.34s]
+20:45:08  34 of 43 START sql table model demo_gold.dim_security .......................... [RUN]
+25/01/21 20:45:08 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:45:11  34 of 43 OK created sql table model demo_gold.dim_security ..................... [OK in 2.82s]
+20:45:11  35 of 43 START sql table model demo_silver.watches_history ..................... [RUN]
+25/01/21 20:45:11 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:46:39  35 of 43 OK created sql table model demo_silver.watches_history ................ [OK in 88.04s]
+20:46:39  36 of 43 START sql table model demo_gold.dim_account ........................... [RUN]
+25/01/21 20:46:39 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:46:48  36 of 43 OK created sql table model demo_gold.dim_account ...................... [OK in 8.94s]
+20:46:48  37 of 43 START sql table model demo_silver.holdings_history .................... [RUN]
+25/01/21 20:46:48 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:48:07  37 of 43 OK created sql table model demo_silver.holdings_history ............... [OK in 79.30s]
+20:48:07  38 of 43 START sql table model demo_silver.watches ............................. [RUN]
+25/01/21 20:48:07 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:50:05  38 of 43 OK created sql table model demo_silver.watches ........................ [OK in 118.02s]
+20:50:05  39 of 43 START sql table model demo_gold.fact_cash_transactions ................ [RUN]
+25/01/21 20:50:06 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:50:48  39 of 43 OK created sql table model demo_gold.fact_cash_transactions ........... [OK in 42.36s]
+20:50:48  40 of 43 START sql table model demo_gold.fact_trade ............................ [RUN]
+25/01/21 20:50:48 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+20:54:51  40 of 43 OK created sql table model demo_gold.fact_trade ....................... [OK in 243.52s]
+20:54:51  41 of 43 START sql table model demo_gold.fact_holdings ......................... [RUN]
+25/01/21 20:54:51 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+21:08:53  41 of 43 OK created sql table model demo_gold.fact_holdings .................... [OK in 842.14s]
+21:08:53  42 of 43 START sql table model demo_gold.fact_watches .......................... [RUN]
+25/01/21 21:08:54 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+21:14:55  42 of 43 OK created sql table model demo_gold.fact_watches ..................... [OK in 361.60s]
+21:14:55  43 of 43 START sql table model demo_gold.fact_cash_balances .................... [RUN]
+25/01/21 21:14:55 WARN ResolveSessionCatalog: A Hive serde table will be created as there is no table provider specified. You can set spark.sql.legacy.createHiveTableByDefault to false so that native data source table will be created instead.
+21:17:14  43 of 43 OK created sql table model demo_gold.fact_cash_balances ............... [OK in 139.25s]
