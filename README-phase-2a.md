@@ -226,21 +226,22 @@ the running instance of your Vertex AI Workbench
 9. Using SparkSQL answer: how many table were created in each layer?
 
        1.	We got through dbt run and dbt test successfully
-         ![image](https://github.com/user-attachments/assets/a5077c1d-c7b1-47cc-a455-b71e57ba2dad)
-         ![image](https://github.com/user-attachments/assets/0299a5a2-77ba-44d3-be9b-f253392b3400)
+   ![image](https://github.com/user-attachments/assets/a5077c1d-c7b1-47cc-a455-b71e57ba2dad)
+   ![image](https://github.com/user-attachments/assets/0299a5a2-77ba-44d3-be9b-f253392b3400)
+
        2.	Using SparkSQL answer: how many table were created in each layer?
    
           spark.sql("use demo_bronze")
           spark.sql("show tables").show()
-         ![image](https://github.com/user-attachments/assets/8dc543d9-b184-426b-ba9e-97e73f84416d)
+   ![image](https://github.com/user-attachments/assets/8dc543d9-b184-426b-ba9e-97e73f84416d)
 
           spark.sql("use demo_silver")
           spark.sql("show tables").show()
-          ![image](https://github.com/user-attachments/assets/72023762-ba30-48f3-beb8-ee7270e7d54e)
+   ![image](https://github.com/user-attachments/assets/72023762-ba30-48f3-beb8-ee7270e7d54e)
 
           spark.sql("use demo_gold")
           spark.sql("show tables").show()
-          ![image](https://github.com/user-attachments/assets/a6858c6f-1aac-4b09-8918-08c3f3c873fe)
+   ![image](https://github.com/user-attachments/assets/a6858c6f-1aac-4b09-8918-08c3f3c873fe)
 
 
 11. Add some 3 more [dbt tests](https://docs.getdbt.com/docs/build/tests) and explain what you are testing.
@@ -266,7 +267,7 @@ the running instance of your Vertex AI Workbench
         where dim.sk_broker_id is NULL
 
         All test passed:
-        ![image](https://github.com/user-attachments/assets/4378f4e9-a649-4c51-b6f9-5d8b06dd029c)
+    ![image](https://github.com/user-attachments/assets/4378f4e9-a649-4c51-b6f9-5d8b06dd029c)
 
 
 12. In main.tf update
