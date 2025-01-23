@@ -13,8 +13,8 @@ def analyze_file(file_path):
     return matches
 
 
-file_path = "data/dbt_run_logs_2_exec.txt" # CHANGE to file_path of file you want to analyze
-file_name = file_path[18:24]
+file_path = "C:\\Users\\karol\\tbd\\tbd-workshop-1\\dbt_etl_performance_testing\\data\\dbt_run_logs_2_exec.txt" # CHANGE to file_path of file you want to analyze
+file_name = file_path[-10:-4]
 
 matches = analyze_file(file_path)
 
@@ -48,6 +48,8 @@ plt.bar(layer_times.keys(), layer_times.values())
 plt.title(f'Total Execution Time by Layer ~ {file_name}')
 plt.xlabel('Layer')
 plt.ylabel('Time (minutes)')
+plt.ylim(0, 45)
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+
